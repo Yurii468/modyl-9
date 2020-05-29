@@ -1,0 +1,316 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+    url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+    url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+    url('../fonts/montserrat-v14-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'),
+    url('../fonts/roboto-v20-latin-300.woff2') format('woff2'),
+    url('../fonts/roboto-v20-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+    url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  padding-top: 20px;
+  padding-bottom: 138px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url(../img/header-1.png);
+  background-color: rgb(26, 25, 21);
+}
+.autorization-list {
+  display: flex;
+  justify-content: center;
+}
+
+.logotype {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin: 0 auto;
+}
+.login {
+  margin-right: 20px;
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+}
+.signup {
+  border-radius: 40px;
+  border: solid 2px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 94px;
+  height: 40px;
+  border-color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+.header-tittle {
+  margin-top: 40px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.header-description {
+  margin: 0 auto;
+  width: 218px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.header-button {
+  border: none;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 280px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+.partners {
+  margin: 0 auto;
+  text-align: center;
+}
+.partner {
+  margin: 0 auto;
+}
+.partners-holiday {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.card-2 {
+  margin: 0 auto;
+}
+.name {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #333333;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.about {
+  margin: 0 auto;
+  width: 220px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #666666;
+  font-family: 'Roboto';
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.card-3 {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  width: 122px;
+  height: 122px;
+}
+.card-3::after {
+  position: absolute;
+  background-image: url(../img/icon-1.png);
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+  bottom: 0;
+  right: 0;
+
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+}
+.card-4 {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  width: 122px;
+  height: 122px;
+}
+.card-4::after {
+  position: absolute;
+  background-image: url(../img/icon-2.png);
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+  bottom: 0;
+  right: 0;
+
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 165, 7);
+}
+.card-5 {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  width: 122px;
+  height: 122px;
+}
+.card-5::after {
+  position: absolute;
+  background-image: url(../img/icon-3.png);
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+  bottom: 0;
+  right: 0;
+
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(28, 215, 173);
+}
+.card-6 {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  width: 122px;
+  height: 122px;
+}
+.card-6::after {
+  position: absolute;
+  background-image: url(../img/icon-4.png);
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+  bottom: 0;
+  right: 0;
+
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(78, 115, 219);
+}
+.button_other_partners {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: rgb(255, 78, 80);
+  width: 276px;
+  height: 44px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+  margin-bottom: 58px;
+}
+@media (max-width: 767px) {
+  .autorization-colum {
+    margin-bottom: 120px;
+  }
+}
+@media (min-width: 768px) {
+  .header-tittle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    margin-top: 150px;
+  }
+  .header {
+    padding-bottom: 236px;
+    padding-top: 40px;
+    background-image: url(../img/header-2.png);
+  }
+  .header-description {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    padding-bottom: 236px;
+    padding-top: 40px;
+    background-image: url(../img/header-3.png);
+  }
+  .header-tittle {
+    font-size: 54px;
+    line-height: 62px;
+  }
+}
